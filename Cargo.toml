@@ -2,14 +2,14 @@
 authors = [
 "viewpointics-tan <viewpointicstan@gmail.com>"
 ]
-categories = ["gui", "wasm", "web-programming"]
-description = "This is a tailwind css enabled template based on yew-wasm-pack-minimal."
+categories = []
+description = "This is a piano based on yew."
 edition = "2018"
-keywords = ["yew", "wasm", "wasm-bindgen", "web", "tailwind"]
+keywords = ["yew","midi","web","piano"]
 license = "MIT"
-name = "yew-wasm-pack-tailwind"
+name = "piano_with_yew"
 readme = "README.md"
-repository = "https://github.com/viewpointics-tan/yew-wasm-pack-tailwind"
+repository = "https://github.com/viewpointics-tan/piano_with_yew"
 version = "0.1.0"
 
 [lib]
