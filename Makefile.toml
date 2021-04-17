@@ -1,0 +1,15 @@
+[tasks.build]
+command = "wasm-pack"
+args = ["build", "--target", "web"]
+
+[tasks.bundle]
+command = "rollup"
+args = ["./main.js", "--format", "iife", "--file", "./pkg/bundle.js", "--config"]
+
+[tasks.dev]
+dependencies = ["build", "bundle"]
+
+[tasks.serve]
+command = "miniserve"
+args = ["./"]
+dependencies = ["dev"]

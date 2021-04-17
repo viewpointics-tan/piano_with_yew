@@ -1,0 +1,20 @@
+[package]
+authors = [
+"viewpointics-tan <viewpointicstan@gmail.com>"
+]
+categories = ["gui", "wasm", "web-programming"]
+description = "This is a tailwind css enabled template based on yew-wasm-pack-minimal."
+edition = "2018"
+keywords = ["yew", "wasm", "wasm-bindgen", "web", "tailwind"]
+license = "MIT"
+name = "yew-wasm-pack-tailwind"
+readme = "README.md"
+repository = "https://github.com/viewpointics-tan/yew-wasm-pack-tailwind"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "^0.2"
+yew = "0.17"
